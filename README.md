@@ -12,6 +12,8 @@ Demonstration of choreographed property animations. Jump [to the activity](https
  * Inflating and playing animations from XML `res/animator`
  * Creating custom-timed animations with the `ValueAnimator`
 
+Preview of the app:
+
 <img src="http://i.imgur.com/ToeRvZK.gif" width="400" />
 
 Refer to the [CodePath Animations Guide](http://guides.codepath.com/android/Animations) for further details. 
