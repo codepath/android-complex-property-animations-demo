@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlSkyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66ccff"
+    tools:context=".SkylinePropertyAnimationActivity">
+
+    <ImageView
+        android:id="@+id/ivSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/sun"
+        android:paddingLeft="100dp"
+        android:paddingTop="45dp"
+        android:src="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/ivCloud1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cloud"
+        android:paddingLeft="170dp"
+        android:paddingTop="70dp"
+        android:src="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/ivCloud2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cloud"
+        android:paddingLeft="200dp"
+        android:paddingTop="120dp"
+        android:src="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/ivBird"
+        android:layout_width="70dp"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bird"
+        android:scaleType="fitXY"
+        android:paddingLeft="0dp"
+        android:paddingTop="100dp"
+        app:srcCompat="@drawable/bird" />
+
+    <ImageView
+        android:id="@+id/ground"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/ground"
+        android:paddingTop="40dp"
+        android:src="@drawable/ground" />
+
+    <ImageView
+        android:id="@+id/window"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/window"
+        android:src="@drawable/window" />
+
+    <ImageView
+        android:id="@+id/ivWheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/wheel"
+        android:padding="3dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/steering_wheel" />
+
+</RelativeLayout>
